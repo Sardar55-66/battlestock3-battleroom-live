@@ -593,8 +593,93 @@ img {
     justify-content: center;
 }
 
+@media(max-width: 450px) {
+
+
+    div.session-container {
+        width: 85%;
+    }
+
+    .left-right-container_headers {
+        margin-left: 4%;
+    }
+
+    .left-right_container {
+        height: 220px !important;
+    }
+
+    .social-media {
+        bottom: 0%;
+    }
+
+    .left-container__battle-restrictions {
+        height: 100px !important;
+    }
+
+    .social-logos_wrapper {
+        top: 12em;
+    }
+
+    div.elapsed {
+        padding-bottom: 0px !important;
+    }
+
+    .header-button {
+        width: 60%;
+    }
+
+    .game-info-container-navigation_panel {
+        font-size: 14px;
+        width: 120%;
+    }
+
+    .game-info-container-navigation_panel>ul>li {
+        margin-right: 20px;
+    }
+
+    
+    .burger-container {
+        margin-right: 10px;
+        width: 27px;
+    }
+
+    .mobile-header {
+        position: relative;
+        z-index: 99;
+        justify-content: space-around;
+    }
+
+    .social-close_btn>svg {
+        width: 20px;
+        height: 20px;
+        position: relative;
+        top: -3px;
+    }
+    .social-media_container {
+        position: absolute;
+        right: 0;
+        margin-right: 0;
+        bottom: 10%;
+    }
+
+    .social-media_page>img {
+        width: 15px !important;
+        height: 15px !important;
+    }
+    .no-players_joined-wrapper {
+        position: absolute;
+        left: 0;
+    }
+.restrictions_container {
+    margin-bottom: 10px;
+}
+  
+}
 
 @media(max-width: 1025px) {
+    .session-container_text {
+        font-size: 16px;
+    }
     .left-container__header-wrapper {
         margin-bottom: 10px;
         margin-left: 15px;
@@ -799,83 +884,7 @@ img {
 
 
 
-@media(max-width: 450px) {
 
-    .left-right-container_headers {
-        margin-left: 4%;
-    }
-
-    .left-right_container {
-        height: 220px !important;
-    }
-
-    .social-media {
-        bottom: 0%;
-    }
-
-    .left-container__battle-restrictions {
-        height: 100px !important;
-    }
-
-    .social-logos_wrapper {
-        top: 12em;
-    }
-
-    div.elapsed {
-        padding-bottom: 0px !important;
-    }
-
-    .header-button {
-        width: 60%;
-    }
-
-    .game-info-container-navigation_panel {
-        font-size: 14px;
-        width: 120%;
-    }
-
-    .game-info-container-navigation_panel>ul>li {
-        margin-right: 20px;
-    }
-
-    
-    .burger-container {
-        margin-right: 10px;
-        width: 27px;
-    }
-
-    .mobile-header {
-        position: relative;
-        z-index: 99;
-        justify-content: space-around;
-    }
-
-    .social-close_btn>svg {
-        width: 20px;
-        height: 20px;
-        position: relative;
-        top: -3px;
-    }
-    .social-media_container {
-        position: absolute;
-        right: 0;
-        margin-right: 0;
-        bottom: 10%;
-    }
-
-    .social-media_page>img {
-        width: 15px !important;
-        height: 15px !important;
-    }
-    .no-players_joined-wrapper {
-        position: absolute;
-        left: 0;
-    }
-.restrictions_container {
-    margin-bottom: 10px;
-}
-  
-}
 
 
 .logo-img {
@@ -1824,6 +1833,7 @@ tbody :last-child {
     height: 27px;
 }
 .session-container_text {
+    text-align: center;
     font-weight: 400;
     font-family: 'Gordita';
     font-size: 20px;
