@@ -119,7 +119,7 @@ body {
 }
 
 .status-bar {
-    width: 250px;
+    width: 100%;
     height: 25px;
     border-radius: 5px;
     font-size: 16px;
@@ -292,6 +292,9 @@ img {
 }
 .sidebar-menu-list {
     width: 82%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .sidebar-menu-list .col {
@@ -768,7 +771,7 @@ img {
     .date-wrapper {
         width: 90%;
         position: absolute;
-        bottom: calc(32em + -6px);
+        bottom: calc(31em + -6px);
     }
 
     .logo-img_main-logo {
@@ -1861,4 +1864,87 @@ tbody :last-child {
 .sidebar-modal_wrapper {
     display: flex;
     width: 160px;
+}
+
+
+// modal styles
+
+.modal-dialog {
+    position: relative;
+    z-index: 1;
+	font-family: 'Gordita';
+	overflow-y: hidden;
+	flex-direction: column;
+	width: 95%;
+    min-width: 587px;
+	min-height: 209px;
+	background: linear-gradient(#2E0327, #6D1153, #2E0327);
+	border: 1px solid #F8D05F;
+	border-radius: 10px;
+	box-shadow: -1px 0px 15px 1px rgba(213, 213, 42, 0.72);
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-wrap: wrap;
+	text-align: center;
+}
+.popup-modal-close_btn {
+	float: right;
+	top: 10px;
+	right: 10px;
+	position: absolute;
+	background: none;
+	border: none;
+	float: right;
+	cursor: pointer;
+}
+
+
+.card-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-inner>span {
+    font-family: 'Gordita';
+    font-size: 16px;
+    color: #FEFFAB;
+    font-weight: 200;
+}
+
+.card-inner {
+    background-image: url('../assets/icons/Confetti.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    position: relative;
+    width: 85%;
+	text-align: center;
+}
+.card-inner>span {
+    font-family: 'Gordita';
+    font-size: 26px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.none>img {
+    display: block;
+    width: 34px;
+    height: 34px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.find-new-battle {
+    position: relative;
+    z-index: 99;
+    cursor: pointer;
+    font-size: 12px;
+    width: 65%;
+    background-color: #133D1E;
+    color: #F8D05F;
+    border: 1px solid #F8D05F;
+    border-radius: 5px;
+    height: 37px;
+    margin-bottom: 50px;
 }
