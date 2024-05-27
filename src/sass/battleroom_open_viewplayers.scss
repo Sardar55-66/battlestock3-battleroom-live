@@ -382,6 +382,9 @@ img {
     z-index: 99;
     width: 100%;
 }
+.game-info-container-navigation_panel>ul {
+    padding: 0;
+}
 
 .game-info-container-navigation_panel>ul {
     width: 100%;
@@ -748,6 +751,7 @@ img {
     }
 
     .containers-wrapper, .containers-wrapper__first {
+        left: 4px;
         margin-right: none;
         // margin-right: -12px !important;
         align-content: center;
@@ -822,7 +826,16 @@ img {
     .left-right_container {
         height: 220px !important;
     }
+    .left-container__header-wrapper {
+        left: 0 !important;
+    }
+    .containers-wrapper__first {
+        left: 0 !important;
+    }
 
+    .modal-dialog {
+        width: 95%;
+    }
     .social-media {
         bottom: 0%;
     }
