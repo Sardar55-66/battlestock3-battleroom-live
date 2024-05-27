@@ -605,13 +605,16 @@ img {
 
 
 @media(max-width: 1025px) {
+    .first-wrapper {
+        width: 100%;
+    }
     .left-container__header-wrapper {
         margin-bottom: 10px;
         margin-left: 15px;
         flex-direction: row;
         z-index: 99;
         border-bottom: 1px solid #F8D05F;
-        left: 6px;
+        // left: 6px;
         border: 1px solid #F8D05F;
         height: 48px;
         background-color: #3F0437;
@@ -669,7 +672,7 @@ img {
     }
 
     .modal-dialog {
-        width: 98% !important;
+        width: 96% !important;
         min-width: auto !important;
     }
 
@@ -797,6 +800,12 @@ img {
     }
 }
 
+@media(max-width:306px) {
+    .mobile-menu_modal {
+        width: 19rem;
+    }
+}
+
 // @media(max-width: 447px) {
 //     .decrease {
 //         width: 45% !important;
@@ -834,7 +843,7 @@ img {
     }
 
     .modal-dialog {
-        width: 95%;
+        width: 95% !important;
     }
     .social-media {
         bottom: 0%;
