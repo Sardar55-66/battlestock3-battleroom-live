@@ -661,6 +661,11 @@ img {
         justify-content: center;
     }
 
+    .modal-dialog {
+        width: 90% !important;
+        min-width: auto !important;
+    }
+
     .social-media_container {
         bottom: 12%;
     }
