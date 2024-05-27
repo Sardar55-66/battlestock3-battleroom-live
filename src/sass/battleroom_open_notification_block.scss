@@ -783,6 +783,7 @@ img {
     }
 
     .elapsed {
+        flex-direction: column !important;
         min-width: 100% !important;
         padding-bottom: 35px !important;
     }
@@ -900,8 +901,9 @@ img {
     .containers-wrapper, .containers-wrapper__first {
         margin-right: -12px !important;
         align-content: center;
-        flex-direction: column;
+        flex-direction: column !important;
         width: 100%;
+        height: fit-content;
     }
    
     .game-info-container-navigation_panel {
@@ -1215,7 +1217,6 @@ tbody :last-child {
 }
 
 .elapsed {
-    min-width: fit-content;
     width: 100%;
     padding-bottom: 80px;
     margin: 0 auto;

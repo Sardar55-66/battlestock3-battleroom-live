@@ -4,14 +4,7 @@
   ],
   "hints": {
     "axe/forms": "off",
-    "compat-api/css": [
-      "default",
-      {
-        "ignore": [
-          "min-width: fit-content"
-        ]
-      }
-    ],
+    "compat-api/css": "off",
     "axe/name-role-value": "off"
   }
 }

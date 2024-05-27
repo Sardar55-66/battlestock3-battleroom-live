@@ -117,7 +117,7 @@ body {
 }
 
 .status-bar {
-  width: 250px;
+  width: 100%;
   height: 25px;
   border-radius: 5px;
   font-size: 16px;
@@ -646,6 +646,7 @@ img {
     width: 120%;
   }
   .game-info-container-navigation_panel > ul > li {
+    font-size: 14px;
     margin-right: 20px;
   }
   .burger-container {
@@ -683,7 +684,7 @@ img {
 }
 @media (max-width: 1025px) {
   .session-container_text {
-    font-size: 16px;
+    font-size: 16px !important;
   }
   .left-container__header-wrapper {
     margin-bottom: 10px;
@@ -752,6 +753,9 @@ img {
     margin-right: 7px;
     max-width: 99% !important;
     left: 18px;
+  }
+  .game-info-container-navigation_panel > ul > li > a {
+    font-size: 14px;
   }
   .social-media {
     right: 0;
