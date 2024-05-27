@@ -32,6 +32,7 @@ body {
 }
 
 .first-wrapper {
+  width: 100vw;
   background: linear-gradient(#260021, #0B1432);
   background-repeat: no-repeat;
 }
